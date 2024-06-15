@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>MC Servas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #333;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 36px;
+        }
+        nav {
+            text-align: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            margin: 0 20px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .main-content {
+            background-color: #444;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MC Servas</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="mods.html">Modai</a>
+            <a href="mclauncher.html">MC Launcheris</a>
+        </nav>
+    </header>
+
+    
+     <div class="container">
+        <div class="main-content">
+            <h2>Modai</h2>
+            <button onclick="DownloadMods()">Download</button>
+        </div>
+   
+   
+</body>
+  <script>
+      function DownloadMods() {
+          window.open("https://drive.usercontent.google.com/download?id=14ALOBHdvrTZjf4tPEbdY_TXDeawvAlxT&export=download&authuser=0", "_blank");
+      }
+
+      function DownloadFabric() {
+          window.open("https://maven.fabricmc.net/net/fabricmc/fabric-installer/1.0.1/fabric-installer-1.0.1.exe", "_blank");
+      }
+  </script>
+  
+</html>
